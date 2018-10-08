@@ -222,8 +222,8 @@ div = """
 </div>
 """
 
-for i in bList:
-    bDiv = i[:-1]
+for i in bList[:-1]:
+    bDiv = i[1]
     if (bDiv == 0):
         nu = 0
         col = "100%"
